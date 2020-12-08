@@ -11,7 +11,7 @@ exports.dbConnect = async () => {
     console.log("DB CONNECTED");
   } catch (error) {
     if (e) {
-      console.log(e.message);
+      console.log(e.message,'error')
     }
   }
 };
