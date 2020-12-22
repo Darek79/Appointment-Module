@@ -33,7 +33,6 @@ app.all('*', (req, res, next) => {
 });
 
 app.use(errorHandler);
-
 const server = app.listen(8080, () => console.log('server is up'));
 
 process.on('unhandledRejection', (err) => {
